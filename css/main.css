@@ -12,3 +12,13 @@ body {
 	left: 45%;
     top: 150px;
 }
+.complete {
+	position: relative;
+/*	float: left; */
+	left: 45%; 
+    top: 150px;
+}
+
+.completed-list li {
+	text-decoration:line-through;
+}

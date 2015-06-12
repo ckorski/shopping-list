@@ -5,19 +5,22 @@
 	<title>Shopping List App</title>
 	<link rel="stylesheet" href="css/main.css">
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-<!--	<script src="js/app.js"></script>
--->
+	<script src="js/app.js"></script>
+
 </head>
 <body>
 	<div id="main">
 		<div class="list"> 
-			<input id="items" value="Add items here..."></input>
-			<button id="add" type="submit">Submit</button>
-			<ul>
-				<li class="shopList">Eggs</li>
+			<input id="input-items"></input>
+			<button id="btn-add">Submit</button>
+			<ul class ="ul-theList">
+				<li class="shopList">Eggs<img class="delete" src='img/trsh.png'/></li>
 				<li class="shopList">Eggwhites</li>
 				<li class="shopList">More Eggs</li>
 			</ul>
+		</div>
+		<div class="complete"> 
+			<ul class="completed-list"></ul>
 		</div>
 
 	</div>
