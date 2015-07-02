@@ -19,6 +19,6 @@ body {
     top: 150px;
 }
 
-.completed-list li {
+.strike {
 	text-decoration:line-through;
 }
